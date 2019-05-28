@@ -1,0 +1,131 @@
+body{
+
+    background:#93C572;
+}
+.main
+{
+	background:#93C572; 
+	position:relative;
+	width:900px;
+	margin:0px auto;
+	border: 2px black solid;
+}
+
+.center p
+	{
+   text-align:justify;
+   padding:30px 20px 0px 20px;
+   color:#F0FFF0;
+   font-size:16px;
+   font-family:Courier;
+   letter-spacing:0.5px;
+	}
+.center  h5
+{
+text-align:center;
+padding:10px 20px 1px 100px;
+color:#F0FFF0;
+font-size:19px;
+font-family:Courier;
+letter-spacing:0.5px;
+}
+
+.center h1
+	{
+   color:white;
+   text-align:center;
+   padding:0px 0px 0px 0px;
+	}
+.my-flex-container{
+
+  	display: flex;
+}
+.my-flex-block h5{
+	text-align:center;
+	padding:5px 0px 0px 0px;
+	color:#F0FFF0;
+	font-size:19px;
+	font-family:Courier;
+	letter-spacing:0.5px;	
+}
+.my-flex-block p
+	{
+   padding:0px 20px 0px 20px;
+   color:#F0FFF0;
+   font-size:16px;
+   font-family:Courier;
+   letter-spacing:0.5px;
+	}
+
+a {
+    text-decoration: none; 
+   } 
+a:hover { 
+    text-decoration: underline; 
+    
+   }
+.leftimg {
+    float:left;
+    margin: 10px 10px 10px 0; 
+   }
+.rightimg  {
+    float: right; 
+    margin: 10px 0 10px 10px;
+	}
+
+img {
+
+    -webkit-transition: width 1s;
+    -moz-transition: width 1s;
+    -o-transition: width 1s;
+     transition: width 1s;
+	}
+
+img:hover{
+    width: 500px;
+}
+
+
+#updown {
+      height: 40px;
+      width: 50px;
+      background:red url(image/up.jpg) ;
+      position: fixed;
+      bottom : 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+
+#p_prldr{
+position: fixed;
+left: 0;
+top: 0;
+right:0;
+bottom:0;
+background: #9A12B3;
+z-index: 30;}
+ 
+.contpre small{font-size:25px;}
+ 
+.contpre{
+width: 250px;
+height: 100px;
+position: absolute;
+left: 50%;top: 48%;
+margin-left:-125px;
+margin-top:-75px;
+color:#fff;
+font-size:40px;
+letter-spacing:-2px;
+text-align:center;
+line-height:35px;}
+ 
+#p_prldr .svg_anm {
+position: absolute;
+width: 41px;
+height: 41px;
+background: url(images/ball-triangle.svg) center center no-repeat;
+background-size:41px;    
+margin: -16px 0 0 -16px;}
+
+
